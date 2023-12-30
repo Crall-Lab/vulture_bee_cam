@@ -81,9 +81,16 @@ Run sudo python ~/daqhats/examples/python/mcc134/tempSensor.py
 Confirm a folder in /home/pi/ titled "tempProbes" and a csv with a temp reading is generated
 
 # Set up and test video recording
+
+Modify script permissions
 ```bash
 cd ~/vulture_bee_cam/scripts/
 chmod a+x record_video.sh
+```
+
+Test recording
+```bash
+sudo ~/vulture_bee_cam/scripts/record_video.sh
 ```
 
 # Install wittyPi libraries and script
