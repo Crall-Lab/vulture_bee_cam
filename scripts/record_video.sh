@@ -9,5 +9,5 @@ OUTPUT=/mnt/data/"$HOSTNAME"_"$DATE"/"$HOSTNAME"_"$DATETIME".mjpeg
 sudo mkdir -p /mnt/data/"$HOSTNAME"_"$DATE"
 
 #Set to record for 9 minutes and 50 seconds each video
-libcamera-vid --width 4056 --height 3040 --codec mjpeg --save-pts mjpeg -o "$OUTPUT" --nopreview -t 180000 --framerate 4
+libcamera-vid --width 4608 --height 2592 --codec mjpeg -o "$OUTPUT" --nopreview -t 20000 --framerate 20
 echo video recorded!
