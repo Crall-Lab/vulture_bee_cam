@@ -95,13 +95,12 @@ sudo ~/vulture_bee_cam/scripts/record_video.sh
 
 # Install wittyPi libraries and script
 
-Attach the wittyPi on top of the thermocouples 40 pin GPIO, then run commands below
-If using an old wittyPi replace with "WittyPi3"
+Attach the wittyPi on top of the thermocouples 40 pin GPIO (NB change 'WittyPi3' to 'WittyPi4' depending on model you're using)
 ```bash
-wget http://www.uugear.com/repo/WittyPi4/install.sh
+wget http://www.uugear.com/repo/WittyPi3/install.sh
 sudo sh install.sh
 ```
 ```bash
-sudo mv ~/r/braingram/pollinatorcam/schedule.wpi ~/wittypi/schedule.wpi
+sudo mv ~/vulture_bee_cam/scripts/schedule.wpi ~/wittypi/schedule.wpi
 sudo ./wittypi/runScript.sh
 ```
