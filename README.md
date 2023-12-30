@@ -80,6 +80,12 @@ Open crontab and add this line
 Run sudo python ~/daqhats/examples/python/mcc134/tempSensor.py
 Confirm a folder in /home/pi/ titled "tempProbes" and a csv with a temp reading is generated
 
+# Set up and test video recording
+```bash
+cd ~/vulture_bee_cam/scripts/
+chmod a+x record_video.sh
+```
+
 # Install wittyPi libraries and script
 
 Attach the wittyPi on top of the thermocouples 40 pin GPIO, then run commands below
