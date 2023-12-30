@@ -3,7 +3,7 @@
 
 # Install OS
 
-Install latest Pi OS (Desktop: tested March 2020)
+Install latest Pi OS (Desktop: tested December 2023)
 Setup locale, timezone, keyboard, hostname, ssh
 
 
