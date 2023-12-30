@@ -102,5 +102,5 @@ sudo sh install.sh
 ```
 ```bash
 sudo mv ~/vulture_bee_cam/scripts/schedule.wpi ~/wittypi/schedule.wpi
-sudo ./wittypi/runScript.sh
+sudo ~/wittypi/runScript.sh
 ```
