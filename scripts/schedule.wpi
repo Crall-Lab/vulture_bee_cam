@@ -37,5 +37,5 @@ OFF	M55			# keep OFF state until next hour comes
 ON	M5	# Hour 14 ON for 15 min
 OFF	M55			# keep OFF state until next hour comes
 ON	M5	# Hour 15 ON for 15 min
-OFF	M585			# keep OFF for 14 hours + 45 minutes
+OFF	M595			# keep OFF for 14 hours + 45 minutes
 
