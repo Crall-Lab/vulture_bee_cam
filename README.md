@@ -97,10 +97,11 @@ sudo ~/vulture_bee_cam/scripts/record_video.sh
 
 Attach the wittyPi on top of the thermocouples 40 pin GPIO (NB change 'WittyPi3' to 'WittyPi4' depending on model you're using)
 ```bash
+cd ~
 wget http://www.uugear.com/repo/WittyPi3/install.sh
 sudo sh install.sh
 ```
 ```bash
-sudo mv ~/vulture_bee_cam/scripts/schedule.wpi ~/wittypi/schedule.wpi
+sudo cp ~/vulture_bee_cam/scripts/schedule.wpi ~/wittypi/schedule.wpi
 sudo ~/wittypi/runScript.sh
 ```
