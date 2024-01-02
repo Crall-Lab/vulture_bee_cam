@@ -1,5 +1,7 @@
 # vulture_bee_cam
-
+Code and installation instructions for raspberry pi based camera monitoring system
+Vulture bee project
+Costa Rica 2024 (Lapa Verde and La Selva)
 
 # Install OS
 
@@ -70,8 +72,8 @@ cd ~/daqhats
 sudo ./install.sh
 ```
 ```bash
-sudo chmod 775 ~/r/braingram/pollinatorcam/tempSensor.py
-sudo mv ~/r/braingram/pollinatorcam/tempSensor.py ~/daqhats/examples/python/mcc134/tempSensor.py
+sudo chmod 775 ~/vulture_bee_cam/scripts/tempSensor.py
+sudo mv ~/vulture_bee_cam/scripts/tempSensor.py ~/daqhats/examples/python/mcc134/tempSensor.py
 ```
 Open crontab and add this line
 ```bash
