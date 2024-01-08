@@ -95,6 +95,11 @@ Test recording
 sudo ~/vulture_bee_cam/scripts/record_video.sh
 ```
 
+Now add recoding script to crontab
+```bash
+@reboot sudo ~/vulture_bee_cam/scripts/record_video.sh
+```
+
 # Install wittyPi libraries and script
 
 Attach the wittyPi on top of the thermocouples 40 pin GPIO (NB change 'WittyPi3' to 'WittyPi4' depending on model you're using)
