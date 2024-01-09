@@ -73,7 +73,7 @@ sudo ./install.sh
 ```
 ```bash
 sudo chmod 775 ~/vulture_bee_cam/scripts/tempSensor.py
-sudo mv ~/vulture_bee_cam/scripts/tempSensor.py ~/daqhats/examples/python/mcc134/tempSensor.py
+sudo cp ~/vulture_bee_cam/scripts/tempSensor.py ~/daqhats/examples/python/mcc134/tempSensor.py
 ```
 Open crontab and add this line
 ```bash
