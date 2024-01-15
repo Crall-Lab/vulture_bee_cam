@@ -14,7 +14,7 @@ def display_every_tenth_frame(video_path):
         if not ret:
             break
 
-        frame_count += 1
+        frame_count += 20
         if frame_count % 1 == 0:
             cv2.imshow("Frame", frame)
             if cv2.waitKey(25) & 0xFF == ord('q'):
